@@ -1,0 +1,15 @@
+{
+  "name": "cpnt262_final_project",
+  "version": "0.1.0",
+  "description": "\"CPNT 262 - Final Project\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "The Hot Hounds",
+  "license": "CC-BY-NC-4.0",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
