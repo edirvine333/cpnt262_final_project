@@ -3,7 +3,7 @@ const path = require('path')
 
 //  Loading npm modules
 const express = require('express')
-const { response } = require('express')
+const dotenv = require('dotenv').config()
 
 //  Loading custom modules
 
