@@ -1,6 +1,8 @@
 # CPNT 262 - FINAL PROJECT - HOT HOUNDS PHOTOGRAPHY
 
-##  DESCRIPTION OF PROJECT  
+##  DESCRIPTION OF PROJECT 
+
+??????
 
 ##  REPOSITORY AND DEPLOYMENT INFORMATION  
 
@@ -16,3 +18,12 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 2.  Using Greensock for ??????  
 
 ## ATTRIBUTIONS
+
+??????
+
+### LICENSE  
+Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
+Copyright Hot Hounds 2021. 
+
+
+
