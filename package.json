@@ -1,0 +1,24 @@
+{
+  "name": "cpnt262_final_project",
+  "version": "0.1.0",
+  "description": "\"CPNT262-A4 Final Project\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edirvine333/cpnt262_final_project.git"
+  },
+  "author": "",
+  "license": "CC-BY-NC-4.0",
+  "bugs": {
+    "url": "https://github.com/edirvine333/cpnt262_final_project/issues"
+  },
+  "homepage": "https://github.com/edirvine333/cpnt262_final_project#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1"
+  }
+}
