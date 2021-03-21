@@ -23,9 +23,6 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
-Copyright Hot Hounds 2021. 
-
---test
-
+Copyright Hot Hounds 2021.
 
 
