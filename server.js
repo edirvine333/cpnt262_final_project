@@ -6,7 +6,8 @@ const express = require('express')
 const dotenv = require('dotenv').config()
 
 //  Loading custom modules
-
+const api = require('./routes/api/v0.js')
+const route = require('./routes/index.js')
 
 //  Defining the "app" function
 const app = express()
@@ -19,6 +20,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 //  Insert routing
+app.use('/', api)
+app.use('/', route)
 
 
 //  Error handling
