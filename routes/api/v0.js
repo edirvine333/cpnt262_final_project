@@ -15,8 +15,8 @@ const router = express.Router()
 
 //  Endpoints
 //  /api/v0/gallery
-router.get('/api/v0/gallery', function (req, res) {
-  Dog.find(function (err, dogs){
+router.get('/api/v0/gallery', (req, res) => {
+  Dog.find((err, dogs) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
@@ -26,8 +26,8 @@ router.get('/api/v0/gallery', function (req, res) {
 })
 
 //  /api/v0/subscribers
-router.get('/api/v0/subscribers', function (req, res) {
-  Subscriber.find(function (err, subscribers){
+router.get('/api/v0/subscribers', (req, res) => {
+  Subscriber.find((err, subscribers) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
@@ -37,8 +37,8 @@ router.get('/api/v0/subscribers', function (req, res) {
 })
 
 //  /api/v0/members
-router.get('/api/v0/members', function (req, res) {
-  Member.find(function (err, members){
+router.get('/api/v0/members', (req, res) => {
+  Member.find((err, members) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
