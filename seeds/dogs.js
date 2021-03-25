@@ -16,8 +16,25 @@ const dogs = [
         comment: "I love rebeccapurple."
       }
     ]
-
+  },
+  {
+    id: "2",
+    name: "3",
+    description: "434",
+    height: "1800",
+    width: "1200",
+    img_path: "/public/assets/1000.jpg",
+    credit: 'J545',
+    comments: [
+      {
+        username: "45",
+        comment: "I love rebeccapurple."
+      }
+    ]
   }
+
+
+//end 
 ]
 
 
