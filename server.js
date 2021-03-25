@@ -25,7 +25,7 @@ app.use('/', route)
 
 
 //  Error handling
-app.use(function (req, res) {
+app.use((req, res) => {
   res.status(404)
   res.send("404 Error File Not Found")
 })
@@ -36,7 +36,7 @@ app.use(function (req, res) {
 const PORT = process.env.PORT || 3000
 
 //  Listening for a request
-app.listen(PORT, function () {
+app.listen(PORT, () => {
   console.log(`Listening on port:  ${PORT}`)
 })
 
