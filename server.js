@@ -33,11 +33,11 @@ app.use(function (req, res) {
 //  ************************************************************************************************************************
 
 //  Assigning the .env variable
-const port = process.env.PORT || 3000
+const PORT = process.env.PORT || 3000
 
 //  Listening for a request
-app.listen(port, function () {
-  console.log(`Listening on port:  ${port}`)
+app.listen(PORT, function () {
+  console.log(`Listening on port:  ${PORT}`)
 })
 
 //  **************************************************  COMMENTS  ***********************************************************
