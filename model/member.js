@@ -8,8 +8,7 @@ const memSchema = new mongoose.Schema({
   name: String,
   profilePic: String,
   title: String,
-  bio: String,
-  github: String
+  bio: String
 })
 
 //  Define model as a module
