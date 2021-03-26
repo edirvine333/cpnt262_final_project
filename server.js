@@ -15,14 +15,15 @@ const app = express()
 
 //  *************************************************  MIDDLEWARE  **********************************************************
 
+// body parser/ important to decode post request from url encoded request
+app.use(express.urlencoded({extended: false}))
+
 //  Static page server
 app.use(express.static(path.join(__dirname, 'public')))
-
 
 //  Insert routing
 app.use('/', route)
 app.use('/', api)
-
 
 //  Error handling
 app.use((req, res) => {

@@ -47,5 +47,13 @@ router.get('/api/v0/members', (req, res) => {
   })
 })
 
+
+// Post request/ save data to database
+router.post('/api/v0/subscriber',(req,res) => {
+    const { name } = req.body
+    res.send(name)
+})
+
+
 //  Define the script as a module
 module.exports = router

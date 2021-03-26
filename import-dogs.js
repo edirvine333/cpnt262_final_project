@@ -14,12 +14,12 @@ const seedDogs = require('./seeds/dogs')
 // will auto generate
 
 // seeding dogs
-Dog.insertMany(seedDogs,(err, cb)=>{
+Dog.insertMany(seedDogs,(err, dog)=>{
 
   if(err){ return err }
   
   console.log('Data import completed')
-  console.log(cb)
+  console.log(dog)
   mongoose.connection.close();
  })
 
