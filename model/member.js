@@ -4,7 +4,7 @@
 const mongoose = require('mongoose')
 
 //  Build model schema
-const memSchema = new mongoose.Schema({
+const memberSchema = new mongoose.Schema({
   name: String,
   profilePic: String,
   title: String,
@@ -12,4 +12,4 @@ const memSchema = new mongoose.Schema({
 })
 
 //  Define model as a module
-module.exports = mongoose.model('Member', memSchema)
+module.exports = Member = mongoose.model('Member', memberSchema)

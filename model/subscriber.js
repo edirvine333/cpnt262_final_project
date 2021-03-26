@@ -3,6 +3,7 @@
 //  Load Mongoose npm package
 const mongoose = require('mongoose')
 
+
 //  Build model schema
 const subSchema = new mongoose.Schema({
   firstname: String,
@@ -11,4 +12,4 @@ const subSchema = new mongoose.Schema({
 })
 
 //  Define model as a module
-module.exports = mongoose.model('Subscriber', subSchema)
+module.exports = Subscribers = mongoose.model('Subscriber', subSchema)

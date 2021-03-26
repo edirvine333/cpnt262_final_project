@@ -2,81 +2,81 @@
 
 const dogs = [
   {
-    id: "1000",
+    id: 1000,
     name: "Charlie - Pose 1",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/1000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "2000",
+    id: 2000,
     name: "Charlie - Pose 2",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/2000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "3000",
+    id: 3000,
     name: "Charlie - Pose 3",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/3000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "4000",
+    id: 4000,
     name: "Charlie - Pose 4",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/4000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "5000",
+    id: 5000,
     name: "Charlie - Pose 5",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/5000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "6000",
+    id: 6000,
     name: "Charlie - Pose 6",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/6000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "7000",
+    id: 7000,
     name: "Charlie - Pose 7",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/7000.jpg",
     credit: 'Eroll Canoy'
   },
 
   {
-    id: "8000",
+    id: 8000,
     name: "Charlie - Pose 8",
     description: "An artistic photo of a small dog.",
-    height: "400",
-    width: "500",
+    height: 400,
+    width: 500,
     img_path: "/public/images/8000.jpg",
     credit: 'Eroll Canoy'
   }

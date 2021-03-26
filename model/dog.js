@@ -18,4 +18,4 @@ const dogSchema = new mongoose.Schema({
 // convension when using model, first Cap letter
 // create a dogSchema, 
 // compile and export
-module.exports = dog = mongoose.model('Dog', dogSchema)
+module.exports = Dog = mongoose.model('Dog', dogSchema)
