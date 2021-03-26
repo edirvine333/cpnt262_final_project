@@ -2,7 +2,7 @@
 
 //  Load modules
 const express = require('express')
-const mongoose = require('../../_connection.js')
+const mongoose = require('../../connection/_connection.js')
 
 //  Load databases
 //  Names of databases can be modified

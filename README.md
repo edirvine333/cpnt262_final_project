@@ -19,9 +19,24 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 
 ## NOTES
 
+### Routes  
+- '/'  
+- '/subscribe'  
+- '/admin'  
+- '/gallery'  
+- '/gallery/:id'  
+- '/team' 
+
+### NPM Packages  
+- ejs    
+- dotenv    
+- mongoose    
+- express  
+
+
 ## ATTRIBUTIONS
 
-Photos Courtesy of ??????????
+Photos Courtesy of ???  Karen's Friend   ???
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
