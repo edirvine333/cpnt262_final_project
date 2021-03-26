@@ -6,9 +6,9 @@ const mongoose = require('../../connection/_connection.js')
 
 //  Load databases
 //  Names of databases can be modified
-const Dog = require('../../model/dog.js')
-const Subscriber = require('../../model/subscriber.js')
-const Member = require('../../model/member.js')
+const Dog = require('../../model/Dog')
+const Subscriber = require('../../model/Subscriber')
+const Member = require('../../model/Member')
 
 //  Declares "router" and assigns it the express.Router function, which gives us the .get method
 const router = express.Router()
@@ -16,7 +16,7 @@ const router = express.Router()
 //  Endpoints
 //  /api/v0/gallery
 router.get('/api/v0/gallery', (req, res) => {
-  Dog.find((err, dogs) => {
+  Dog.find({},(err, dogs) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
@@ -27,7 +27,7 @@ router.get('/api/v0/gallery', (req, res) => {
 
 //  /api/v0/subscribers
 router.get('/api/v0/subscribers', (req, res) => {
-  Subscriber.find((err, subscribers) => {
+  Subscriber.find({},(err,subscribers) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
@@ -38,7 +38,7 @@ router.get('/api/v0/subscribers', (req, res) => {
 
 //  /api/v0/members
 router.get('/api/v0/members', (req, res) => {
-  Member.find((err, members) => {
+  Member.find({},(err,members) => {
     if (err) {
       res.status(404)
       res.sendFile(__dirname +'/public/404.html')
