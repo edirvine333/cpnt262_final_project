@@ -1,42 +1,87 @@
-// Dogs Object
-// If you want to add, just copy paste and edit the value
-// Image size is 4x6 
+//  The data object for the Subscribers database to be imported into MongoDB Atlas
+
 const dogs = [
   {
     id: "1000",
-    name: "Doggie",
-    description: "A dog",
-    height: "1800",
-    width: "1200",
-    img_path: "/public/assets/1000.jpg",
-    credit: 'Juan Dela Crus',
-    comments: [
-      {
-        username: "Tony",
-        comment: "I love rebeccapurple."
-      }
-    ]
+    name: "Charlie - Pose 1",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/1000.jpg",
+    credit: 'Eroll Canoy'
   },
+
   {
-    id: "2",
-    name: "3",
-    description: "434",
-    height: "1800",
-    width: "1200",
-    img_path: "/public/assets/1000.jpg",
-    credit: 'J545',
-    comments: [
-      {
-        username: "45",
-        comment: "I love rebeccapurple."
-      }
-    ]
+    id: "2000",
+    name: "Charlie - Pose 2",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/2000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "3000",
+    name: "Charlie - Pose 3",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/3000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "4000",
+    name: "Charlie - Pose 4",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/4000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "5000",
+    name: "Charlie - Pose 5",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/5000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "6000",
+    name: "Charlie - Pose 6",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/6000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "7000",
+    name: "Charlie - Pose 7",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/7000.jpg",
+    credit: 'Eroll Canoy'
+  },
+
+  {
+    id: "8000",
+    name: "Charlie - Pose 8",
+    description: "An artistic photo of a small dog.",
+    height: "400",
+    width: "500",
+    img_path: "/public/images/8000.jpg",
+    credit: 'Eroll Canoy'
   }
 
-
-//end 
 ]
 
-
-
+//  Defines the script as a module for importing
 module.exports = dogs

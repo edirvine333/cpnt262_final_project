@@ -1,3 +1,5 @@
+//  Model describing the properties of the Dogs database
+
 const mongoose = require('mongoose')
 
 // schema //represent the data to be pass to database
@@ -20,4 +22,4 @@ const dogSchema = new mongoose.Schema({
 // convension when using model, first Cap letter
 // create a dogSchema, 
 // compile and export
-module.exports = dog = mongoose.model('Dog',dogSchema)
+module.exports = dog = mongoose.model('Dog', dogSchema)
