@@ -20,8 +20,8 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 //  Insert routing
-app.use('/', api)
 app.use('/', route)
+app.use('/', api)
 
 
 //  Error handling
@@ -39,6 +39,7 @@ const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
   console.log(`Listening on port:  ${PORT}`)
 })
+
 
 //  **************************************************  COMMENTS  ***********************************************************
 //
