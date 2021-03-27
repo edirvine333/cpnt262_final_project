@@ -1,0 +1,89 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Oswald&family=Shrikhand&display=swap'); */
+
+body {
+  font-family: 'Oswald', serif;
+
+  background-color: rgb(253, 197, 0);
+  color: white;
+}
+
+h1,{
+  font-family: 'Shrikhand', cursive;
+} 
+
+h2 {
+  font-family: 'Shrikhand', cursive;
+
+  padding-top: 3rem;
+  font-size: 50px;
+  text-align: center;
+
+  color: purple;
+  letter-spacing: .4rem;
+}
+
+.container {
+  width: 100%;
+  height: 5vh;
+  position: relative;
+}
+
+.logo {
+  padding-top: 2rem;
+
+}
+
+.navbar {
+  width: 85%;
+  height: 15vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Hero */
+
+.kiyo {
+ display: flex;
+ justify-content: right;
+
+}
+
+.hero-image {
+  padding:250px;
+  background-image: url(/public/svg/logo.svg);
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.coa {
+  display: block;
+  margin: auto;
+
+  font-family: 'Shrikhand', cursive; 
+  font-size: 40px;
+
+  border: 10px solid purple;
+  border-radius: 4rem;
+  background-color: purple;
+  color: white;
+}
+
+.coa a {
+  text-decoration: none;
+  color: white;
+}
+
+/* About Us */
+
+.about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.abt-desc {
+  font-size: 25px;
+  padding: 10rem;
+}
