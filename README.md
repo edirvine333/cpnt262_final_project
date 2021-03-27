@@ -40,12 +40,13 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 - ejs    
 - dotenv    
 - mongoose    
-- express  
+- express 
+- cors   
 
 
 ## ATTRIBUTIONS
 
-Photos Courtesy of ???  Karen's Friend   ???
+Photos Courtesy of Joshua Sacopla  
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
