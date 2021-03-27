@@ -18,6 +18,8 @@ const app = express()
 // cros
 app.use(cors())
 
+app.use(cors())
+
 // body parser/ important to decode post request from url encoded request
 app.use(express.urlencoded({extended: false}))
 
