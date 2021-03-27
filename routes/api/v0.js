@@ -50,6 +50,7 @@ router.get('/api/v0/members', (req, res) => {
 
 // Post request/ save data to database
 router.post('/api/v0/subscriber',(req,res) => {
+    
     const { firstname, lastname, email } = req.body
     
     const newSub = new Subscriber({ firstname, lastname, email})
