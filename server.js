@@ -8,26 +8,23 @@ const cors = require('cors')
 
 //  Loading custom modules
 const api = require('./routes/api/v0.js')
-const route = require('./routes/index.js')
+const index = require('./routes/index.js')
 
 //  Defining the "app" function
 const app = express()
 
 
 //  *************************************************  MIDDLEWARE  **********************************************************
-// cros
-app.use(cors())
-
+// cors
 app.use(cors())
 
 // body parser/ important to decode post request from url encoded request
 app.use(express.urlencoded({extended: false}))
 
 //  Static page server
-app.use(express.static(path.join(__dirname, 'public')))
+app.use(express.static(path.join(__dirname + '/public')))
 
 //  Insert routing
-app.use('/', route)
 app.use('/', api)
 
 //  Error handling
