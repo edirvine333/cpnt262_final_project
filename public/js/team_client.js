@@ -20,11 +20,7 @@ fetch(endpoint)
     let figure = document.querySelector('figure'); //  grips to <figure> element in html
 
     members.forEach( member => {
-<<<<<<< HEAD
-
-=======
       
->>>>>>> 6909b7dfeb3ab233c0467ebeb0f168f4c5d9e383
       figure.innerHTML = figure.innerHTML + `<img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption>`;
 
     })
