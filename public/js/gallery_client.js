@@ -21,7 +21,7 @@ fetch(endpoint)
 
     dogs.forEach( dog => {
 
-      figure.innerHTML = figure.innerHTML + `<img src="${dog.img_path}" alt="Picture of Charlie the dog"></img><figcaption>${dog.name}</figcaption>`;
+      figure.innerHTML = figure.innerHTML + `<img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>`;
 
     })
 
