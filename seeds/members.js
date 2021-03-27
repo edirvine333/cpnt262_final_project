@@ -11,16 +11,16 @@ const members = [
 
   {
     name: "Norvillie Villaruel",
-    profilePic: "/profile_pics/member002.jpg",
+    profilePic: "/profile_pics/member003.jpg",
     title:  "Technical Lead",
-    bio: "Norvillie maintains all the equipment required by the company, and doubles as a photgrapher when busy."
+    bio: "Norvillie maintains all the equipment required by the company, and doubles as a photographer when busy."
   },
 
   {
     name: "Karen Sule",
-    profilePic: "/profile_pics/member003.jpg",
+    profilePic: "/profile_pics/member002.jpg",
     title:  "Photographer",
-    bio: "Karen specializes in digital photgraphy and mixes traditional techniques with evoloving technology to create beautiful art."
+    bio: "Karen specializes in digital photography and mixes traditional techniques with evolving technology to create beautiful art."
   },
 
   {

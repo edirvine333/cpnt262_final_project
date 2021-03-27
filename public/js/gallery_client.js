@@ -2,7 +2,7 @@
 
 'use strict';
 
-const endpoint = //  api/v0/gallery
+const endpoint = '/api/v0/gallery';
 
 fetch(endpoint)
 
@@ -14,10 +14,16 @@ fetch(endpoint)
     return res.json();
   })
 
-  //  forEach() loop to display gallery
-  .then( () => {
+  //  forEach() loop to display list of subscribers
+  .then( (dogs) => {
+    
+    let figure = document.querySelector('.gallery'); //  grips to <main> element in html
 
-    // forEach() 
+    dogs.forEach( dog => {
+
+      figure.innerHTML = figure.innerHTML + `<img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>`;
+
+    })
 
   })
 
