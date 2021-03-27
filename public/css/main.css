@@ -52,7 +52,7 @@ h2 {
 
 .hero-image {
   padding:250px;
-  background-image: url(/public/svg/logo.svg);
+  background-image: url(/public/images/svg/logo.svg);
   background-size: 100vh;
   background-repeat: no-repeat;
   background-position: center;

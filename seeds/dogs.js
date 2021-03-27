@@ -8,7 +8,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/1000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -18,7 +18,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/2000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -28,7 +28,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/3000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -38,7 +38,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/4000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -48,7 +48,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/5000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -58,7 +58,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/6000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -68,7 +68,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/7000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   },
 
   {
@@ -78,7 +78,7 @@ const dogs = [
     height: 400,
     width: 500,
     img_path: "/public/images/8000.jpg",
-    credit: 'Eroll Canoy'
+    credit: 'Joshua Sacopla'
   }
 
 ]
