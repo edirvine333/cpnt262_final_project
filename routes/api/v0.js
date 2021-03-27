@@ -57,7 +57,11 @@ router.post('/api/v0/subscriber',(req,res) => {
     newSub.save( (err) => {
       if(err){
         res.status(500)
+<<<<<<< HEAD
         res.render('pages/500')
+=======
+        return res.sendFile(__dirname +'/public/500.html')
+>>>>>>> bf91d54f96d07063328894ffa034edd6ff368acb
       }
      console.log(newSub)
 
