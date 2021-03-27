@@ -8,7 +8,7 @@ const memberSchema = new mongoose.Schema({
   name: String,
   profilePic: String,
   title: String,
-  bio: String
+  bio: String,
 })
 
 //  Define model as a module
