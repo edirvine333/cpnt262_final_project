@@ -2,7 +2,7 @@
 
 'use strict';
 
-const endpoint = //  api/v0/subscribers
+const endpoint = '//localhost:3000/api/v0/subscribers';
 
 fetch(endpoint)
 
@@ -15,9 +15,15 @@ fetch(endpoint)
   })
 
   //  forEach() loop to display list of subscribers
-  .then( () => {
+  .then( (members) => {
+    
+    let main = document.querySelector('.admin'); //  grips to <main> element in html
 
-    // forEach() 
+    members.forEach( subscriber => {
+
+      main.innerHTML = main.innerHTML + `<p>${subscriber.firstname}</p> <p>${subscriber.lastname}</p> <p>${subscriber.email}</p>`;
+
+    })
 
   })
 
@@ -25,4 +31,3 @@ fetch(endpoint)
   .catch( (error) => {
     console.log(error);
   });
-
