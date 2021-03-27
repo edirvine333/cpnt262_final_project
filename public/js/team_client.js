@@ -16,7 +16,7 @@ fetch(endpoint)
 
   //  forEach() loop to display pictures and bios of team
   .then( (members) => {
-
+    
     let figure = document.querySelector('figure'); //  grips to <figure> element in html
 
     members.forEach(insert_info);
