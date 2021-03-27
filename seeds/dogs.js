@@ -7,7 +7,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/1000.jpg",
+    img_path: "/images/1000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -17,7 +17,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/2000.jpg",
+    img_path: "/images/2000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -27,7 +27,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/3000.jpg",
+    img_path: "/images/3000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -37,7 +37,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/4000.jpg",
+    img_path: "/images/4000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -47,7 +47,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/5000.jpg",
+    img_path: "/images/5000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -57,7 +57,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/6000.jpg",
+    img_path: "/images/6000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -67,7 +67,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/7000.jpg",
+    img_path: "/images/7000.jpg",
     credit: 'Joshua Sacopla'
   },
 
@@ -77,7 +77,7 @@ const dogs = [
     description: "An artistic photo of a small dog.",
     height: 400,
     width: 500,
-    img_path: "/public/images/8000.jpg",
+    img_path: "/images/8000.jpg",
     credit: 'Joshua Sacopla'
   }
 
