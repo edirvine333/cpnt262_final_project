@@ -19,15 +19,19 @@ fetch(endpoint)
     
     let figure = document.querySelector('figure'); //  grips to <figure> element in html
 
-    members.forEach(insert_info);
-    function insert_info(item, index) {
+    members.forEach( members => {
 
-      figure.innerHTML = figure.innerHTML + `<img src="${members[index].profilePic}" alt="Picture of team member"></img><figcaption>${members[index].name}</figcaption>`;
+      figure.innerHTML = figure.innerHTML + `<img src="/public/${members.profilePic}" alt="Picture of team member"></img><figcaption>${members.name}</figcaption>`;
+
+    })
+
+    // members.forEach(insert_info);
+    // function insert_info(item, index) {
+
+    //   figure.innerHTML = figure.innerHTML + `<img src="${members[index].profilePic}" alt="Picture of team member"></img><figcaption>${members[index].name}</figcaption>`;
           
-    }
-    // forEach() 
-
-  })
+    // }
+   })
 
   //  catch any errors that fall through the .then statements
   .catch( (error) => {
