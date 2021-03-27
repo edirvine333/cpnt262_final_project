@@ -7,8 +7,9 @@ body {
   color: white;
 }
 
-h1,{
+h1 {
   font-family: 'Shrikhand', cursive;
+  text-align: center;
 } 
 
 h2 {
@@ -86,4 +87,42 @@ h2 {
 .abt-desc {
   font-size: 25px;
   padding: 10rem;
+}
+
+
+/* Gallery Page */
+
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+}
+
+.gallery img {
+  padding: 20px;
+}
+
+figure {
+  display: block; 
+  position: relative;
+}
+
+figcaption { 
+  position: absolute; 
+  background: rgba(0,0,0,0.75); 
+  color: white; 
+  padding: 10px 20px; 
+
+  opacity: 0;
+  bottom: 0; 
+  left: -30%;
+  -webkit-transition: all 0.6s ease;
+  -moz-transition:    all 0.6s ease;
+  -o-transition:      all 0.6s ease;
+}
+
+figcaption:hover {
+  transform: scale(1);
+  opacity: 1;
+  left: 0;
 }
