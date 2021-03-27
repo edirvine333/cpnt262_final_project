@@ -19,7 +19,7 @@ router.get('/api/v0/gallery', (req, res) => {
   Dog.find({},(err, dogs) => {
     if (err) {
       res.status(404)
-      res.sendFile(__dirname +'/public/404.html')
+      res.render('pages/404')
     }
     res.json(dogs)
   })
@@ -30,7 +30,7 @@ router.get('/api/v0/subscribers', (req, res) => {
   Subscriber.find({},(err,subscribers) => {
     if (err) {
       res.status(404)
-      res.sendFile(__dirname +'/public/404.html')
+      res.render('pages/404')
     }
     res.json(subscribers)
   })
@@ -41,7 +41,7 @@ router.get('/api/v0/members', (req, res) => {
   Member.find({},(err,members) => {
     if (err) {
       res.status(404)
-      res.sendFile(__dirname +'/public/404.html')
+      res.render('pages/404')
     }
     res.json(members)
   })
@@ -57,7 +57,7 @@ router.post('/api/v0/subscriber',(req,res) => {
     newSub.save( (err) => {
       if(err){
         res.status(500)
-        return res.send('Error saving data')
+        res.render('pages/500')
       }
      console.log(newSub)
 

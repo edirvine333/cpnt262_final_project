@@ -18,6 +18,9 @@ const app = express()
 // cors
 app.use(cors())
 
+// set view engine
+app.set('view engine', 'ejs')
+
 // body parser/ important to decode post request from url encoded request
 app.use(express.urlencoded({extended: true}))
 
@@ -30,7 +33,7 @@ app.use('/', api)
 //  Error handling
 app.use((req, res) => {
   res.status(404)
-  res.send("404 Error File Not Found")
+  res.render("pages/404")
 })
 
 //  ************************************************************************************************************************
