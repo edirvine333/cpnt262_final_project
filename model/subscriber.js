@@ -12,4 +12,4 @@ const subSchema = new mongoose.Schema({
 })
 
 //  Define model as a module
-module.exports = Subscribers = mongoose.model('Subscriber', subSchema)
+module.exports = Subscriber = mongoose.model('Subscriber', subSchema)

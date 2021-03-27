@@ -27,6 +27,15 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 - '/gallery/:id'  
 - '/team' 
 
+### APi's
+**Get request**
+- '/api/v0/gallery' -->retrive all images from database
+- '/api/v0/subscribers'  -->retrive all Subscribers from database.
+- '/api/v0/members' -->retrive all members from database.
+
+**POST request**
+- POST: '/api/v0/subscriber'  -->Save data to database
+
 ### NPM Packages  
 - ejs    
 - dotenv    
