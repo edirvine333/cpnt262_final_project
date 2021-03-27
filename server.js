@@ -4,6 +4,7 @@ const path = require('path')
 //  Loading npm modules
 const express = require('express')
 const dotenv = require('dotenv').config()
+const cors = require('cors')
 
 //  Loading custom modules
 const api = require('./routes/api/v0.js')
@@ -14,6 +15,8 @@ const app = express()
 
 
 //  *************************************************  MIDDLEWARE  **********************************************************
+
+app.use(cors())
 
 // body parser/ important to decode post request from url encoded request
 app.use(express.urlencoded({extended: false}))

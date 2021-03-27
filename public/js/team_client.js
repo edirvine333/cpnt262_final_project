@@ -2,7 +2,7 @@
 
 'use strict';
 
-const endpoint = //  api/v0/members
+const endpoint = '//localhost:3000/api/v0/members';
 
 fetch(endpoint)
 
@@ -15,8 +15,16 @@ fetch(endpoint)
   })
 
   //  forEach() loop to display pictures and bios of team
-  .then( () => {
+  .then( (members) => {
 
+    let figure = document.querySelector('figure'); //  grips to <figure> element in html
+
+    members.forEach(insert_info);
+    function insert_info(item, index) {
+
+      figure.innerHTML = figure.innerHTML + `<img src="/public/${members[index].profilePic}" alt="Picture of team member"></img><figcaption>${members[index].name}</figcaption>`;
+          
+    }
     // forEach() 
 
   })
