@@ -19,10 +19,12 @@ fetch(endpoint)
     
     let figure = document.querySelector('figure'); //  grips to <figure> element in html
 
+    members.forEach( member => {})
+
     members.forEach(insert_info);
     function insert_info(item, index) {
 
-      figure.innerHTML = figure.innerHTML + `<img src="${members[index].profilePic}" alt="Picture of team member"></img><figcaption>${members[index].name}</figcaption>`;
+      figure.innerHTML = figure.innerHTML + `<img src="${item.profilePic}" alt="Picture of team member"></img><figcaption>${members[index].name}</figcaption>`;
           
     }
     // forEach() 
