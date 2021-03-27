@@ -50,20 +50,18 @@ router.get('/api/v0/members', (req, res) => {
 
 // Post request/ save data to database
 router.post('/api/v0/subscriber',(req,res) => {
-
-    console.log(req)
-
-    // const { firstname, lastname, email } = req.body
     
-    // const newSub = new Subscriber({ firstname, lastname, email})
-    // newSub.save( (err) => {
-    //   if(err){
-    //     res.status(500)
-    //     return res.send('Error saving data')
-    //   }
-    //   res.send(newSub)
+    const { firstname, lastname, email } = req.body
+    
+    const newSub = new Subscriber({ firstname, lastname, email})
+    newSub.save( (err) => {
+      if(err){
+        res.status(500)
+        return res.send('Error saving data')
+      }
+     console.log(newSub)
 
-    // })
+    })
 })
 
 

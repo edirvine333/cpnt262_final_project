@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700);
+
+body{
+  background: rgb(108, 135, 146);
+  font-family: 'PT Sans Narrow';
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+p{
+  margin: 0 0 15px 0;
+ 
+}
+
+form{
+  width: 430px;
+  margin: 50px auto;
+  padding: 300px;
+}
+
+input {
+  font-family: 'PT Sans Narrow';
+  font-size: 20px;
+}
+
+.info{
+  display: inline-block;
+  
+  
+}
+
+.info input {
+  display: block;
+  width: 300px;
+  margin: 0 0 10px 0;
+  padding: 12px 1px;
+ 
+}
+
+.info input:focus {
+  background: #eee;
+  
+}
+
+input[type="submit"]{
+  vertical-align: bottom;
+  height: 98px;
+  width: 98px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 700;
+
+  background: linear-gradient(45deg, #FF6C54, #FFA754);
+}
+
+
+input[type="submit"]:hover{
+  background: linear-gradient(180deg, #FF6C54, #FFA754);
+}

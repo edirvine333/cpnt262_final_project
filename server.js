@@ -19,7 +19,7 @@ const app = express()
 app.use(cors())
 
 // body parser/ important to decode post request from url encoded request
-app.use(express.urlencoded({extended: false}))
+app.use(express.urlencoded({extended: true}))
 
 //  Static page server
 app.use(express.static(path.join(__dirname + '/public')))
