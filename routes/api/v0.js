@@ -57,7 +57,7 @@ router.post('/api/v0/subscriber',(req,res) => {
     newSub.save( (err) => {
       if(err){
         res.status(500)
-        return res.send('Error saving data')
+        return res.sendFile(__dirname +'/public/500.html')
       }
      console.log(newSub)
 
