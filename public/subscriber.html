@@ -8,7 +8,12 @@
 </head>
 <body>
   <div class="subscriber">
-    <!--Insert Subscriber Data Here-->
+    <form action="/api/v0/subscriber" method="POST">
+      <input type="text" name="firstname" id="firstname">
+      <input type="text" name="lastname" id="lastname">
+      <input type="text" name="email" id="email">
+      <button type="submit">submit</button>
+    </form>
   </div>
 </body>
 </html>
