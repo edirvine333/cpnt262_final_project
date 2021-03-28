@@ -25,6 +25,21 @@ router.get('/api/v0/gallery', (req, res) => {
   })
 })
 
+router.get('/gallery-item/:id', (req, res) => {
+
+  Dog.find({id: req.params.id}, (err, item) => {
+
+    if (err || !item) {
+      res.status(404)
+      res.render('pages/404')
+    }
+
+    res.render('pages/single-item', {dog: item})
+  })
+
+})
+
+
 //  /api/v0/subscribers
 router.get('/api/v0/subscribers', (req, res) => {
   Subscriber.find({},(err,subscribers) => {
