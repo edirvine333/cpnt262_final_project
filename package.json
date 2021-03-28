@@ -8,15 +8,8 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-<<<<<<< HEAD
   "author": "",
   "license": "CC-BY-NC-4.0",
-=======
-  
-  "author": "",
-  "license": "CC-BY-NC-4.0",
-  
->>>>>>> bd110dfb787ddfa8562b0e83cc307d9e3f26222a
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
