@@ -123,34 +123,13 @@ nav a:hover {
   padding-right: 50rem;
 }
 
-.team {
-  width: 360vw;
-  height: 300px;      
+/* Team */
+
+.team-button {
   display: flex;
-  max-width: 100%;  
-height: auto; 
-background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+  justify-content: right;
 
-
-
-
-  
-  
-}
-body{
-  padding: 1px 2px 2px 2px;
-  text-align: center;  margin: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap; 
-
-    
-    
-    
-  ;
-  
-  
+  margin-right: 50rem;
 }
 
 /* Gallery */

@@ -1,8 +1,25 @@
+.team-container {
+  padding: 1px 2px 2px 2px;
+  text-align: center;  margin: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-flow: row wrap;  
+}
+
+.team {
+  width: 360vw;
+  height: 300px;      
+  display: flex;
+  max-width: 100%;  
+  height: auto; 
+  background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+}
+
 .team-item{
   display: flex;
   width: 50vw;
   height: 350px 
-        
 }
   
 
