@@ -2,7 +2,7 @@
 
 'use strict';
 
-fetch('/api/v0/subscribers')
+fetch('//localhost:3000/api/v0/subscribers')
 
   //  standard error handling for failed fetch() request
   .then((res) => {
