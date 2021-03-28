@@ -46,7 +46,17 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 
 ## ATTRIBUTIONS
 
-Photos Courtesy of Joshua Sacopla  
+Background Images:
+
+[Tamas Pap]( https://unsplash.com/photos/RSZsLKXrWjA) || [Unsplash License](https://unsplash.com/license)
+
+[Victor Grabarcyzk](https://unsplash.com/photos/N04FIfHhv_k) || [Unsplash License](https://unsplash.com/license)
+
+[Alexandra Novitskaya](https://unsplash.com/photos/3FCNwDf4P0w) || [Unsplash License](https://unsplash.com/license)
+
+Gallery Images: 
+
+Photos Courtesy of Joshua Sacopla(Karen's Friend)
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
