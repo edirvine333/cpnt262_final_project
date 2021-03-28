@@ -13,19 +13,14 @@ fetch('/api/v0/subscribers')
   })
 
   //  forEach() loop to display list of subscribers
-  .then( (members) => {
-    
-    let main = document.querySelector('.admin'); //  grips to <main> element in html
-
+  .then((members) => {    
+    let admin = document.querySelector('.admin'); //  grips to <main> element in html
     members.forEach( subscriber => {
-
-      main.innerHTML = main.innerHTML + `<p>${subscriber.firstname}</p> <p>${subscriber.lastname}</p> <p>${subscriber.email}</p>`;
-
+        admin.innerHTML = admin.innerHTML + `<div class="admin-item"><p>${subscriber.firstname}</p><p>${subscriber.lastname}</p> <p>${subscriber.email}</p></div>`;
     })
-
   })
 
   //  catch any errors that fall through the .then statements
-  .catch( (error) => {
+  .catch((error) => {
     console.log(error);
   });

@@ -5,17 +5,17 @@ const express = require('express')
 const mongoose = require('../../connection/_connection.js')
 
 //  Load databases
-//  Names of databases can be modified
-const Dog = require('../../model/Dog')
-const Subscriber = require('../../model/Subscriber')
-const Member = require('../../model/Member')
+const Dog = require('../../model/dog')
+const Subscriber = require('../../model/subscriber')
+const Member = require('../../model/member')
 
 //  Declares "router" and assigns it the express.Router function, which gives us the .get method
 const router = express.Router()
 
 //  Endpoints
+
 //  /api/v0/gallery
-router.get('/api/v0/gallery', (req, res) => {
+router.get('/gallery', (req, res) => {
   Dog.find({},(err, dogs) => {
     if (err) {
       res.status(404)
@@ -25,24 +25,19 @@ router.get('/api/v0/gallery', (req, res) => {
   })
 })
 
+//  script which finds the image called by the request parameter "id" in the URL
 router.get('/gallery-item/:id', (req, res) => {
-
   Dog.find({id: req.params.id}, (err, item) => {
-
     if (err || !item) {
       res.status(404)
       res.render('pages/404')
     }
-
-    res.render('pages/single-item', {dog: item, pageTitle: 'Single-Image'})
-    
+    res.render('pages/single-item', {dog: item, pageTitle: 'Single-Image'})    
   })
-
 })
 
-
 //  /api/v0/subscribers
-router.get('/api/v0/subscribers', (req, res) => {
+router.get('/subscribers', (req, res) => {
   Subscriber.find({},(err,subscribers) => {
     if (err) {
       res.status(404)
@@ -53,7 +48,7 @@ router.get('/api/v0/subscribers', (req, res) => {
 })
 
 //  /api/v0/members
-router.get('/api/v0/members', (req, res) => {
+router.get('/members', (req, res) => {
   Member.find({},(err,members) => {
     if (err) {
       res.status(404)
@@ -65,10 +60,8 @@ router.get('/api/v0/members', (req, res) => {
 
 
 // Post request/ save data to database
-router.post('/api/v0/subscriber',(req,res) => {
-    
-    const { firstname, lastname, email } = req.body
-    
+router.post('/subscriber',(req,res) => {    
+    const { firstname, lastname, email } = req.body    
     const newSub = new Subscriber({ firstname, lastname, email})
     newSub.save( (err) => {
       if(err){
@@ -76,10 +69,8 @@ router.post('/api/v0/subscriber',(req,res) => {
         res.render('pages/500')
       }
      console.log(newSub)
-
     })
 })
-
 
 //  Define the script as a module
 module.exports = router

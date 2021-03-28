@@ -1,3 +1,6 @@
+h1 {
+  text-align: center;
+}
 .gallery {
   display: flex;
   flex-flow: row wrap;
@@ -5,5 +8,12 @@
 }
 
 .gallery img {
-  padding: 20px;
+  padding: 0.5rem;
+  margin: 1rem;
+}
+
+.gallery .gallery-list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

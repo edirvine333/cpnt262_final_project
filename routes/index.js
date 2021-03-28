@@ -30,5 +30,6 @@ router.get('/team',(req,res) => {
 router.get('/subscribe',(req,res) => {
   res.render('pages/subscribe', {pageTitle: 'Subscribe'})
 })
+
 //  Defines the script as a module
 module.exports = router

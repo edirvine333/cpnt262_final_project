@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: rgb(253, 197, 0);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,4 +15,13 @@ body {
 .svg {
   width: 400px;
   height: 500px;
+
+  margin:  5rem;
+}
+
+h1, h2 {
+  display: flex;
+  line-height:  5rem;
+  justify-content: center;
+  font-family: Georgia, sans-serif;
 }
