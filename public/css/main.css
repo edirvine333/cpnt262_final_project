@@ -124,10 +124,33 @@ nav a:hover {
 }
 
 .team {
-  border: 10px solid purple;
-  border-radius: 4rem;
-  background-color: purple;
-  color: white;
+  width: 360vw;
+  height: 300px;      
+  display: flex;
+  max-width: 100%;  
+height: auto; 
+background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+
+
+
+
+  
+  
+}
+body{
+  padding: 1px 2px 2px 2px;
+  text-align: center;  margin: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap; 
+
+    
+    
+    
+  ;
+  
+  
 }
 
 /* Gallery */

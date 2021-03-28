@@ -16,7 +16,9 @@ fetch('/api/v0/members')
   .then((members) => {   
     const team = document.querySelector('.team')
     members.forEach( member => {
-      team.innerHTML = team.innerHTML +  `<div class="team-item"><img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption></div>`;
+      team.innerHTML = team.innerHTML +  `<div class="team-item"><img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption>
+                                          <p>Title: ${member.title}</p><p>Bio: ${member.bio}</p></div>`
+                                          
     })
   })
 
