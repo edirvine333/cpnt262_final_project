@@ -14,10 +14,10 @@ fetch('/api/v0/members')
 
   //  forEach() loop to display pictures and bios of team
   .then( (members) => {
-    let figure = document.querySelector('figure'); //  grips to <figure> element in html
+   
+    const team = document.querySelector('.team')
     members.forEach( member => {
-      figure.innerHTML = figure.innerHTML + `<img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption>`;
-
+      team.innerHTML = team.innerHTML +  `<div class="team-item"><img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption></div>`;
     })
 
   })
