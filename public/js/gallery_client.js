@@ -2,9 +2,7 @@
 
 'use strict';
 
-const endpoint = '/api/v0/gallery';
-
-fetch(endpoint)
+fetch('/api/v0/gallery')
 
   //  standard error handling for failed fetch() request
   .then((res) => {
@@ -18,11 +16,8 @@ fetch(endpoint)
   .then( (dogs) => {
     
     let figure = document.querySelector('.gallery'); //  grips to <main> element in html
-
     dogs.forEach( dog => {
-
       figure.innerHTML = figure.innerHTML + `<div> <img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>  <a href="/gallery-item/${dog.id}">${dog.name}</a> </div>`;
-
     })
 
   })

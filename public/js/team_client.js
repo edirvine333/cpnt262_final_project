@@ -2,9 +2,7 @@
 
 'use strict';
 
-const endpoint = '/api/v0/members';
-
-fetch(endpoint)
+fetch('/api/v0/members')
 
   //  standard error handling for failed fetch() request
   .then((res) => {
@@ -16,11 +14,8 @@ fetch(endpoint)
 
   //  forEach() loop to display pictures and bios of team
   .then( (members) => {
-    console.log(members)
     let figure = document.querySelector('figure'); //  grips to <figure> element in html
-
     members.forEach( member => {
-      
       figure.innerHTML = figure.innerHTML + `<img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption>`;
 
     })
