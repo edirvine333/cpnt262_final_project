@@ -7,7 +7,7 @@ const express = require('express')
 const router = express.Router()
 
 // index
-router.get('/',(req,res) => {
+router.get('/index',(req,res) => {
   res.render('pages/index', {pageTitle: 'Index'})
 })
 
