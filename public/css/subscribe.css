@@ -8,17 +8,20 @@ body{
 
 h1 {
   text-transform: uppercase;
+  text-align: center;
+ 
 }
 
 p{
   margin: 0 0 15px 0;
+  text-align: center;
  
 }
 
 form{
   width: 430px;
   margin: 50px auto;
-  padding: 300px;
+  padding: 100px;
 }
 
 input {
