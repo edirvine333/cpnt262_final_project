@@ -12,11 +12,11 @@ fetch('/api/v0/gallery')
     return res.json();
   })
 
-  //  forEach() loop to display list of subscribers
+  //  forEach() loop to display gallery
   .then((dogs) => {    
     let figure = document.querySelector('.gallery'); //  grips to <main> element in html
     dogs.forEach( dog => {
-      figure.innerHTML = figure.innerHTML + `<div> <img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>  <a href="/api/v0/gallery-item/${dog.id}">${dog.name}</a> </div>`;
+      figure.innerHTML = figure.innerHTML + `<div> <img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>  <a href="/api/v0/gallery-item/${dog.id}" width="${dog.width}">${dog.name}</a> </div>`;
     })
   })
 

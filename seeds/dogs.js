@@ -10,7 +10,6 @@ const dogs = [
     img_path: "/images/1000.jpg",
     credit: 'Joshua Sacopla'
   },
-
   {
     id: 2000,
     name: "Charlie - Pose 2",
@@ -20,7 +19,6 @@ const dogs = [
     img_path: "/images/2000.jpg",
     credit: 'Joshua Sacopla'
   },
-
   {
     id: 3000,
     name: "Charlie - Pose 3",
@@ -30,7 +28,6 @@ const dogs = [
     img_path: "/images/3000.jpg",
     credit: 'Joshua Sacopla'
   },
-
   {
     id: 4000,
     name: "Charlie - Pose 4",
@@ -40,7 +37,6 @@ const dogs = [
     img_path: "/images/4000.jpg",
     credit: 'Joshua Sacopla'
   },
-
   {
     id: 5000,
     name: "Charlie - Pose 5",
@@ -70,7 +66,6 @@ const dogs = [
     img_path: "/images/7000.jpg",
     credit: 'Joshua Sacopla'
   },
-
   {
     id: 8000,
     name: "Charlie - Pose 8",
@@ -79,8 +74,16 @@ const dogs = [
     width: 500,
     img_path: "/images/8000.jpg",
     credit: 'Joshua Sacopla'
+  },
+  {
+ id: 9000,
+    name: "Charlie - Pose 9",
+    description: "An artistic photo of a small dog.",
+    height: 400,
+    width: 500,
+    img_path: "/images/9000.jpg",
+    credit: 'Joshua Sacopla'
   }
-
 ]
 
 //  Defines the script as a module for importing

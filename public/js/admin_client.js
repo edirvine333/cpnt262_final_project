@@ -16,7 +16,7 @@ fetch('/api/v0/subscribers')
   .then((members) => {    
     let main = document.querySelector('.admin'); //  grips to <main> element in html
     members.forEach( subscriber => {
-      main.innerHTML = main.innerHTML + `<p>${subscriber.firstname}</p> <p>${subscriber.lastname}</p> <p>${subscriber.email}</p>`;
+      main.innerHTML += `<p class="sub-name">${subscriber.firstname}, ${subscriber.lastname}</p><br><p class="sub-email">${subscriber.email}</p>`;
     })
   })
 
