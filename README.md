@@ -23,7 +23,7 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 - '/'  
 - '/subscribe'  
 - '/admin'  
-- '/gallery'  
+- '/gallery-list'  
 - '/gallery/:id'  
 - '/team' 
 
