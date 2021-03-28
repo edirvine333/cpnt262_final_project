@@ -34,12 +34,8 @@ router.get('/gallery-item/:id', (req, res) => {
       res.render('pages/404')
     }
 
-<<<<<<< HEAD
-    res.render('pages/single-item', {dog: item, pageTitle:'Single-Item'})
-=======
-    res.render('pages/single-item', {dog: item})
+    res.render('pages/single-item', {dog: item, pageTitle: Single-Image})
     
->>>>>>> 69dbc7c9b240b45cfb1d00f13da25af429aff41b
   })
 
 })
