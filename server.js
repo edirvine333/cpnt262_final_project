@@ -7,8 +7,8 @@ const dotenv = require('dotenv').config()
 const cors = require('cors')
 
 //  Loading custom modules
-const api = require('./routes/api/v0.js')
-const index = require('./routes/index.js')
+const api = require('./routes/api/v0')
+const index = require('./routes/index')
 
 //  Defining the "app" function
 const app = express()
@@ -40,11 +40,11 @@ app.use((req, res) => {
 //  ************************************************************************************************************************
 
 //  Assigning the .env variable
-const PORT = process.env.PORT || 3000
+const port = process.env.PORT || 3000
 
 //  Listening for a request
-app.listen(PORT, () => {
-  console.log(`Listening on port:  ${PORT}`)
+app.listen(port, () => {
+  console.log(`Listening on port:  ${port}`)
 })
 
 
