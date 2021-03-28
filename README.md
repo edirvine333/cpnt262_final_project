@@ -20,7 +20,7 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 ## NOTES  
 
 1.  GitHub commits do not accurately reflect the efforts made by each individual.  Much of the actual work was done through Zoom group work where one person navigated while the others watched and learned.  
-2.  Fancy Feature - Main Title on landing page bounces in; using Greensock framework.  
+2.  Fancy Feature - Main Title on landing page bounces in and animated page scroll; using Greensock framework.  
 
 ### Routes  
 - '/'  
@@ -59,7 +59,7 @@ Background Images:
 
 Gallery Images: 
 
-Photos Courtesy of Joshua Sacopla(Karen's Friend)
+Photos Courtesy of Joshua Sacopla ( Karen's Boyfriend <3<3<3 )
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
