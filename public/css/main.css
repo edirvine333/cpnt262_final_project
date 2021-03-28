@@ -116,7 +116,10 @@ nav a:hover {
 
 .abt-desc {
   font-size: 20px;
+ 
   
+  
+
   display: flex;
   justify-content: left;
 
@@ -129,7 +132,7 @@ nav a:hover {
   display: flex;
   justify-content: right;
 
-  margin-right: 50rem;
+  margin-right: 58rem;
 }
 
 /* Gallery */
