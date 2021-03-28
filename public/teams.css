@@ -6,7 +6,7 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-.images {
+section {
   height: 100vh;
   position: sticky;
   display: flex;
@@ -15,7 +15,7 @@
 }
 
 .one {
-  background: #0c0d0d;
+  background: #11aaaa;
 }
 
 .two {
@@ -42,7 +42,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  color: #000;
+  color: rgb(10, 0, 0);
   padding: 0rem 2rem;
 }
 
@@ -62,8 +62,8 @@ button {
   padding: 1rem 3rem;
   font-size: 1rem;
   border: none;
-  background: #f5cd03;
-  color: #0c0d0d;
+  background: #077c25;
+  color: #ca59d4;
   cursor: pointer;
   border-radius: 50px;
 }
