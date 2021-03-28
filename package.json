@@ -8,16 +8,10 @@
     "start": "node server.js",
     "dev": "nodemon server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/edirvine333/cpnt262_final_project.git"
-  },
+  
   "author": "",
   "license": "CC-BY-NC-4.0",
-  "bugs": {
-    "url": "https://github.com/edirvine333/cpnt262_final_project/issues"
-  },
-  "homepage": "https://github.com/edirvine333/cpnt262_final_project#readme",
+  
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
