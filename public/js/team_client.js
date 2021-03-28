@@ -19,10 +19,7 @@ fetch(endpoint)
    
     const team = document.querySelector('.team')
     members.forEach( member => {
-      
       team.innerHTML = team.innerHTML +  `<div class="team-item"><img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption></div>`;
-
-
     })
 
   })
