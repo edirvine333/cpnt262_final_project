@@ -15,5 +15,20 @@ router.get('/',(req,res) => {
 router.get('/gallery-list',(req,res) => {
   res.render('pages/gallery-list')
 })
+
+// admin
+router.get('/admin',(req,res) => {
+  res.render('pages/admin')
+})
+
+// teams
+router.get('/team',(req,res) => {
+  res.render('pages/team')
+})
+
+// subscribe
+router.get('/subscribe',(req,res) => {
+  res.render('pages/subscribe')
+})
 //  Defines the script as a module
 module.exports = router
