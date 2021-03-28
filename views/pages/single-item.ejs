@@ -3,20 +3,14 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+  <%- include('../partials/head') %>
+  <body>
+    <%- include('../partials/nav') %>
   
-  <title>Single Item Page</title>
+  <h1><%= dog[0].name %></h1>
+  <img src="<%= dog[0].img_path %>" alt="<%= dog[0].description %>">
 
-</head>
-
-<body>
-  <header>Single Item Page</header>
-
-  <nav></nav>
-
-  <main></main>
-
-  <footer></footer>
+  <%- include('../partials/footer') %>
 </body>
 
 </html>
