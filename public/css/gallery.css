@@ -1,0 +1,9 @@
+.gallery {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;  
+}
+
+.gallery img {
+  padding: 20px;
+}

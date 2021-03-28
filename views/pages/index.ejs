@@ -2,21 +2,36 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
   
-  <title>Home Page</title>
-
-</head>
+<%- include('../partials/head') %>
 
 <body>
-  <header>Home Page</header>
+  <%- include('../partials/nav') %>
+  <%- include('../partials/header') %>
 
-  <nav></nav>
+  <main>
+    <!--Team-->
+    <h2>About the Team</h2>
+    <div class="about">
+      <p class="abt-desc">We are a group of enthusiastic dog owners who love taking pictures of their own puppers!<br>Not only that, we have an expensive camera to carry around to make sure we capture everything in Full Definition.</p>
+      <button class="team"><a href="#">Click to see the whole gang!</a></button>
+        </div>
 
-  <main></main>
+      <!--Gallery-->
+      <h2>Gallery</h2>
+        <div class="gallery">
+          <!--Display Static Image Here-->
+          </div>
+      <div class="gallery-bg"><button class="gallery-button"><a href="#">Check out the whole gallery here!</a></button></div>
+  
+      <!--Subscribe--><h2> Click Below to Subscribe to Our Newsletter
+        </h2>
+      <div class="subscribe">
+        
+        <button class="subscribe-button"><a href="#">Click Me!</a></button>
+      </div>
+  </main>
 
-  <footer></footer>
+  <%- include(../partials/footer')%>
 </body>
-
 </html>
