@@ -1,18 +1,8 @@
-.admin {
+.admin{
   text-align: center;
 }
 
-.sub-name {
-  font-size: 20px
-}
-
-.sub-email {
-  font-style: uppercase;
-.admin{
-  padding: 1rem;
-}
-
-.admin .admin-item{
+.admin-item{
   border: 1px solid black;
   margin: 0.5rem;
   padding: 0.5rem;

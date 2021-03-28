@@ -2,10 +2,20 @@ h1 {
   text-align: center;
 }
 
+a {
+  text-decoration: none;
+  color: purple;
+}
+
+a:hover {
+  transform: scale(1.1);
+}
 .gallery {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;  
+
+  text-align: center;
 }
 
 .gallery img {
@@ -20,4 +30,9 @@ h1 {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.single-itempic {
+  display: block;
+  margin: auto;
 }
