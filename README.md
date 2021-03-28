@@ -14,9 +14,10 @@ A multi-page website for a photo studio dedicated to taking pictures of dogs.  T
 GitHub Repo:  [cpnt262_final_project](https://github.com/edirvine333/cpnt262_final_project)  
 Heroku App:  [sait-wbdv-final-project](https://sait-wbdv-final-project.herokuapp.com/)  
 
-Repository Maintainer:  Ed Irvine  
+Repository And Heroku Maintenance:  Ed Irvine  
 Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz  
 
+MongoDB Atlas Maintenance:  Norvillie Villaruel  
 ## NOTES  
 
 1.  GitHub commits do not accurately reflect the efforts made by each individual.  Much of the actual work was done through Zoom group work where one person navigated while the others watched and learned.  
