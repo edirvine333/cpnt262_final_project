@@ -11,18 +11,18 @@
 }
 
 img{
-  max-width: 200px;
+  max-width: 180px;
   max-height: 300px;
-  border-radius: 50%;
+  border-radius: 58%;
 
   align-items: center;
 }
 
 .team-item {
   margin: 3rem;
-  border: 5px dashed rebeccapurple;
+  border: 5px dashed rgb(105, 52, 158);
   text-align: center;
-  padding: 2rem;
+  padding: 4rem;
 }
   
 
