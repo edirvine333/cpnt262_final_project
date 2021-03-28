@@ -20,6 +20,7 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 ## NOTES  
 
 1.  GitHub commits do not accurately reflect the efforts made by each individual.  Much of the actual work was done through Zoom group work where one person navigated while the others watched and learned.  
+2.  Fancy Feature - Main Title on landing page bounces in; using Greensock framework
 
 ### Routes  
 - '/'  
