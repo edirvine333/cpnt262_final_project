@@ -15,7 +15,7 @@ const router = express.Router()
 
 //  Endpoints
 //  /api/v0/gallery
-router.get('/api/v0/gallery', (req, res) => {
+router.get('/gallery', (req, res) => {
   Dog.find({},(err, dogs) => {
     if (err) {
       res.status(404)
@@ -42,7 +42,7 @@ router.get('/gallery-item/:id', (req, res) => {
 
 
 //  /api/v0/subscribers
-router.get('/api/v0/subscribers', (req, res) => {
+router.get('/subscribers', (req, res) => {
   Subscriber.find({},(err,subscribers) => {
     if (err) {
       res.status(404)
@@ -53,7 +53,7 @@ router.get('/api/v0/subscribers', (req, res) => {
 })
 
 //  /api/v0/members
-router.get('/api/v0/members', (req, res) => {
+router.get('/members', (req, res) => {
   Member.find({},(err,members) => {
     if (err) {
       res.status(404)
@@ -65,7 +65,7 @@ router.get('/api/v0/members', (req, res) => {
 
 
 // Post request/ save data to database
-router.post('/api/v0/subscriber',(req,res) => {
+router.post('/subscriber',(req,res) => {
     
     const { firstname, lastname, email } = req.body
     

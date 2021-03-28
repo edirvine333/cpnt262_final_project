@@ -29,7 +29,7 @@ app.use(express.static(path.join(__dirname + '/public')))
 
 //  Insert routing
 app.use('/',index)
-app.use('/', api)
+app.use('/api/v0',api)
 
 //  Error handling
 app.use((req, res) => {
