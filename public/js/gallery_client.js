@@ -2,7 +2,7 @@
 
 'use strict';
 
-fetch('//localhost:3000/api/v0/gallery')
+fetch('/api/v0/gallery')
 
   //  standard error handling for failed fetch() request
   .then((res) => {
