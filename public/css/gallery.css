@@ -11,6 +11,9 @@ h1 {
 .gallery img {
   padding: 0.5rem;
   margin: 1rem;
+
+  max-width: 400px;
+  max-height: 500px;
 }
 
 .gallery .gallery-list-item{

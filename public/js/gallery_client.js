@@ -16,11 +16,7 @@ fetch('/api/v0/gallery')
   .then((dogs) => {    
     let figure = document.querySelector('.gallery'); //  grips to <main> element in html
     dogs.forEach( dog => {
-<<<<<<< HEAD
-      figure.innerHTML = figure.innerHTML + `<div> <img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>  <a href="/api/v0/gallery-item/${dog.id}" width="${dog.width}">${dog.name}</a> </div>`;
-=======
       figure.innerHTML = figure.innerHTML + `<div class="gallery-list-item"> <img src="${dog.img_path}" alt="Picture of Charlie the dog"></img>  <a href="/api/v0/gallery-item/${dog.id}">${dog.name}</a> </div>`;
->>>>>>> 457070e519e3b6de388b8c9ddec040a288be765b
     })
   })
 
