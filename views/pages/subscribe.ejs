@@ -1,26 +1,29 @@
-<!--  The subscription page  template                           -->                                    
-<!--  Displays a form to be filled out for site subscribers     -->                        
-<!--  Form to include:                                          -->
-<!--    -name                                                   -->
-<!--    -email                                                  -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-  
-  <title>Subscription Page</title>
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/subscribe.css">
+  <title>Subscriber</title>
 </head>
 
 <body>
-  <header>Subscription Form Page</header>
-
-  <nav></nav>
-
-  <main></main>
-
-  <footer></footer>
+  <div class="subscriber"></div>
+    <!--Insert Subscriber Data Here-->
+    
+    <h1> Signup To Our Page</h1>
+    <p>No spam, unsubscribe at any time.</p>
+    
+      <form action="/api/v0/subscriber" method="post">
+        <div class="info">
+          <input type="text" placeholder="First name" name="firstname">
+          <input type="text" placeholder="Last name" name="lastname">
+          <input type="email" placeholder="Your Email" name="email">
+        </div>
+        <input type="submit">
+      </form>
+ 
 </body>
-
 </html>

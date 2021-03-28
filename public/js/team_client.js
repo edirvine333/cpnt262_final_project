@@ -21,7 +21,11 @@ fetch(endpoint)
 
     members.forEach( member => {
       
-      figure.innerHTML = figure.innerHTML + `<img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption>`;
+      figure.innerHTML = figure.innerHTML + ` <div class="team-item">  
+                                                <img src="${member.profilePic}" alt="Picture of team member"></img>
+                                                <figcaption>${member.name}</figcaption>
+                                              </div>
+                                            `;
 
     })
 

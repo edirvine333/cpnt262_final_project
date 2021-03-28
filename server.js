@@ -28,6 +28,7 @@ app.use(express.urlencoded({extended: true}))
 app.use(express.static(path.join(__dirname + '/public')))
 
 //  Insert routing
+app.use('/',index)
 app.use('/', api)
 
 //  Error handling
