@@ -6,7 +6,7 @@
     'Lucida Sans', Arial, sans-serif;
 }
 
-section {
+team-item {
   height: 100vh;
   position: sticky;
   display: flex;
