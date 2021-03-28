@@ -2,9 +2,7 @@
 
 'use strict';
 
-const endpoint = '//localhost:3000/api/v0/subscribers';
-
-fetch(endpoint)
+fetch('/api/v0/subscribers')
 
   //  standard error handling for failed fetch() request
   .then((res) => {
