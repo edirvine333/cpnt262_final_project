@@ -7,7 +7,7 @@ const mongoose = require('../../connection/_connection.js')
 //  Load databases
 //  Names of databases can be modified
 const Dog = require('../../model/dog')
-const Subscriber = require('../../model/Subscriber')
+const Subscriber = require('../../model/subscriber')
 const Member = require('../../model/member')
 
 //  Declares "router" and assigns it the express.Router function, which gives us the .get method
