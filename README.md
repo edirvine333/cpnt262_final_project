@@ -6,7 +6,7 @@ A multi-page website for a photo studio dedicated to taking pictures of dogs.  T
   -  a landing page displaying some information about the company  
   -  a subscription page allowing a user to subscribe to a monthly newsletter
   -  a team page showing the four photographers at the studio  
-  -  a gallery page showing example photos, where each photo can be clicked on to display it on an individual page 
+  -  a gallery page showing example photos, where each photo has a link that can be clicked on to display the image on an individual page 
   -  an administraion page showing the list of subscribers to the newsletter  
 
 ##  REPOSITORY AND DEPLOYMENT INFORMATION  
@@ -20,7 +20,7 @@ Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz
 ## NOTES  
 
 1.  GitHub commits do not accurately reflect the efforts made by each individual.  Much of the actual work was done through Zoom group work where one person navigated while the others watched and learned.  
-2.  Fancy Feature - Main Title on landing page bounces in; using Greensock framework
+2.  Fancy Feature - Main Title on landing page bounces in; using Greensock framework.  
 
 ### Routes  
 - '/'  

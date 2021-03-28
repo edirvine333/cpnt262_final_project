@@ -5,7 +5,6 @@ const express = require('express')
 const mongoose = require('../../connection/_connection.js')
 
 //  Load databases
-//  Names of databases can be modified
 const Dog = require('../../model/dog')
 const Subscriber = require('../../model/subscriber')
 const Member = require('../../model/member')
@@ -14,6 +13,7 @@ const Member = require('../../model/member')
 const router = express.Router()
 
 //  Endpoints
+
 //  /api/v0/gallery
 router.get('/gallery', (req, res) => {
   Dog.find({},(err, dogs) => {
@@ -25,21 +25,16 @@ router.get('/gallery', (req, res) => {
   })
 })
 
+//  script which finds the image called by the request parameter "id" in the URL
 router.get('/gallery-item/:id', (req, res) => {
-
   Dog.find({id: req.params.id}, (err, item) => {
-
     if (err || !item) {
       res.status(404)
       res.render('pages/404')
     }
-
-    res.render('pages/single-item', {dog: item, pageTitle: 'Single-Image'})
-    
+    res.render('pages/single-item', {dog: item, pageTitle: 'Single-Image'})    
   })
-
 })
-
 
 //  /api/v0/subscribers
 router.get('/subscribers', (req, res) => {
@@ -65,10 +60,8 @@ router.get('/members', (req, res) => {
 
 
 // Post request/ save data to database
-router.post('/subscriber',(req,res) => {
-    
-    const { firstname, lastname, email } = req.body
-    
+router.post('/subscriber',(req,res) => {    
+    const { firstname, lastname, email } = req.body    
     const newSub = new Subscriber({ firstname, lastname, email})
     newSub.save( (err) => {
       if(err){
@@ -76,10 +69,8 @@ router.post('/subscriber',(req,res) => {
         res.render('pages/500')
       }
      console.log(newSub)
-
     })
 })
-
 
 //  Define the script as a module
 module.exports = router

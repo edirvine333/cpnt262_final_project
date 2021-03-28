@@ -13,16 +13,14 @@ fetch('/api/v0/members')
   })
 
   //  forEach() loop to display pictures and bios of team
-  .then( (members) => {
-   
+  .then((members) => {   
     const team = document.querySelector('.team')
     members.forEach( member => {
       team.innerHTML = team.innerHTML +  `<div class="team-item"><img src="${member.profilePic}" alt="Picture of team member"></img><figcaption>${member.name}</figcaption></div>`;
     })
-
   })
 
   //  catch any errors that fall through the .then statements
-  .catch( (error) => {
+  .catch((error) => {
     console.log(error);
   });

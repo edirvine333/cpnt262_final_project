@@ -14,3 +14,9 @@ mongoose.connect(
   });
   
   module.exports = mongoose
+
+  //  **************************  COMMENT  ******************************
+  //
+  //  Source code supplied in class by Tony Grimes
+  //
+  //  *******************************************************************

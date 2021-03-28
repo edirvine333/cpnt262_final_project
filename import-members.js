@@ -15,13 +15,10 @@ const seedMember = require('./seeds/members')
 
 // seeding dogs
 Member.insertMany(seedMember,(err, member)=>{
-
-  if(err){ return err }
-  
+  if(err){ return err }  
   console.log('Data import completed')
   console.log(member)
   mongoose.connection.close();
  })
-
 
 // to execute on command line type 'node import.js'
