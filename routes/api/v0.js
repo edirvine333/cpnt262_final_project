@@ -34,7 +34,8 @@ router.get('/gallery-item/:id', (req, res) => {
       res.render('pages/404')
     }
 
-    res.render('pages/single-item', {dog: item})
+    res.render('pages/single-item', {dog: item, pageTitle: 'Single-Image'})
+    
   })
 
 })

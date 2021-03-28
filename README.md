@@ -17,14 +17,16 @@ Heroku App:  [sait-wbdv-final-project](https://sait-wbdv-final-project.herokuapp
 Repository Maintainer:  Ed Irvine  
 Repository Collaborators:  Norvillie Villaruel, Karen Sule, Michael Hintz  
 
-## NOTES
+## NOTES  
+
+1.  GitHub commits do not accurately reflect the efforts made by each individual.  Much of the actual work was done through Zoom group work where one person navigated while the others watched and learned.  
 
 ### Routes  
 - '/'  
 - '/subscribe'  
 - '/admin'  
 - '/gallery-list'  
-- '/gallery/:id'  
+- '/gallery-item/:id'  
 - '/team' 
 
 ### APi's
