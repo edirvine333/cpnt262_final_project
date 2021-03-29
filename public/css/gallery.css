@@ -1,5 +1,9 @@
-h1 {
+h1, p {
   text-align: center;
+}
+
+.description {
+  color: rebeccapurple;
 }
 
 a {
@@ -32,7 +36,24 @@ a:hover {
   align-items: center;
 }
 
+/* Single-Item Page */
+
 .single-itempic {
   display: block;
   margin: auto;
+
+  max-width: 400px;
+
+  padding: 1rem;
+}
+
+.gallery-home {
+  display: block;
+  margin: auto;
+}
+
+@media screen and (max-width:800px) {
+  .gallery img {
+    max-width: 300px;
+  }
 }
