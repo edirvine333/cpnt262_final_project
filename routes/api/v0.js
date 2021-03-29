@@ -69,6 +69,7 @@ router.post('/subscriber',(req,res) => {
         res.render('pages/500')
       }
      console.log(newSub)
+     res.render('pages/thnx')
     })
 })
 
