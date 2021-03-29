@@ -1,8 +1,28 @@
-.team-item{
+.team-container {
+  margin-left: 3rem;
+  margin-right: 3rem;
   display: flex;
-  width: 50vw;
-  height: 350px 
-        
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.team {
+  background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+}
+
+img{
+  max-width: 180px;
+  max-height: 300px;
+  border-radius: 58%;
+
+  align-items: center;
+}
+
+.team-item {
+  margin: 3rem;
+  border: 5px dashed rgb(105, 52, 158);
+  text-align: center;
+  padding: 4rem;
 }
   
 

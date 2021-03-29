@@ -116,41 +116,23 @@ nav a:hover {
 
 .abt-desc {
   font-size: 20px;
+ 
   
+  
+
   display: flex;
   justify-content: left;
 
   padding-right: 50rem;
 }
 
-.team {
-  width: 360vw;
-  height: 300px;      
+/* Team */
+
+.team-button {
   display: flex;
-  max-width: 100%;  
-height: auto; 
-background: linear-gradient(110deg, #fdcd3b 60%,green 60%, lightblue 60%);
+  justify-content: right;
 
-
-
-
-  
-  
-}
-body{
-  padding: 1px 2px 2px 2px;
-  text-align: center;  margin: 1.2rem;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    flex-wrap: wrap; 
-
-    
-    
-    
-  ;
-  
-  
+  margin-right: 58rem;
 }
 
 /* Gallery */
@@ -252,10 +234,19 @@ li a{
   .navbar, nav ul {
     display: flex;
     flex-direction: column;
-    padding:1rem;
+    justify-content: center;
+    padding: 0;
+  }
+
+  .logo {
+
+    display: block;
+    margin: auto;
+    padding-right: 0;
   }
 
   #hero-image {
+    
     max-width: 75vw;
   }
 }

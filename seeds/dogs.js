@@ -3,8 +3,8 @@
 const dogs = [
   {
     id: 1000,
-    name: "Charlie - Pose 1",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Being the cutest bean",
     height: 400,
     width: 500,
     img_path: "/images/1000.jpg",
@@ -12,8 +12,8 @@ const dogs = [
   },
   {
     id: 2000,
-    name: "Charlie - Pose 2",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Yawning",
     height: 400,
     width: 500,
     img_path: "/images/2000.jpg",
@@ -21,8 +21,8 @@ const dogs = [
   },
   {
     id: 3000,
-    name: "Charlie - Pose 3",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "I don't know what he saw",
     height: 400,
     width: 500,
     img_path: "/images/3000.jpg",
@@ -30,8 +30,8 @@ const dogs = [
   },
   {
     id: 4000,
-    name: "Charlie - Pose 4",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Very dramatic photo",
     height: 400,
     width: 500,
     img_path: "/images/4000.jpg",
@@ -39,8 +39,8 @@ const dogs = [
   },
   {
     id: 5000,
-    name: "Charlie - Pose 5",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Festive Photoshoot",
     height: 400,
     width: 500,
     img_path: "/images/5000.jpg",
@@ -49,8 +49,8 @@ const dogs = [
 
   {
     id: 6000,
-    name: "Charlie - Pose 6",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Smiling cause she got food.",
     height: 400,
     width: 500,
     img_path: "/images/6000.jpg",
@@ -59,8 +59,8 @@ const dogs = [
 
   {
     id: 7000,
-    name: "Charlie - Pose 7",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "Smile for the gram",
     height: 400,
     width: 500,
     img_path: "/images/7000.jpg",
@@ -68,8 +68,8 @@ const dogs = [
   },
   {
     id: 8000,
-    name: "Charlie - Pose 8",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "She saw food.",
     height: 400,
     width: 500,
     img_path: "/images/8000.jpg",
@@ -77,8 +77,8 @@ const dogs = [
   },
   {
  id: 9000,
-    name: "Charlie - Pose 9",
-    description: "An artistic photo of a small dog.",
+    name: "Waffle",
+    description: "She didn't get the food.",
     height: 400,
     width: 500,
     img_path: "/images/9000.jpg",

@@ -4,11 +4,14 @@
 <html lang="en">
 
   <%- include('../partials/head') %>
+
   <body>
     <%- include('../partials/nav') %>
-  
-  <h1><%= dog[0].name %></h1>
-  <img src="<%= dog[0].img_path %>" alt="<%= dog[0].description %>">
+
+    <h1><%= dog[0].name %></h1>
+  <img class="single-itempic" src="<%= dog[0].img_path %>" alt="<%= dog[0].description %>">
+  <p class="description"><%= dog[0].description %><br>Photo By <%= dog[0].credit %></p>
+  <button class="gallery-home"><a href="/gallery-list">Back to Gallery</a></button>
 
   <%- include('../partials/footer') %>
 </body>
