@@ -60,7 +60,7 @@ Background Images:
 
 Gallery Images: 
 
-Photos Courtesy of Joshua Sacopla ( Karen's Boyfriend <3<3<3 )
+Photos Courtesy of Joshua Sacopla ( Karen's Friend )
 
 ### LICENSE  
 Licensed under a Creative Commons [CC-BY-NC-4.0 license](https://creativecommons.org/licenses/by-nc/4.0/).  
